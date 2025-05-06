@@ -1,0 +1,12 @@
+{
+  "name": "simple-backend-api",
+  "version": "1.0.0",
+  "description": "A simple backend API with /sayHello endpoint",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
