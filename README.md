@@ -41,18 +41,6 @@ Response:
 }
 ```
 
-### GET /health
-Returns the health status of the API.
-
-Response:
-```json
-{
-    "status": "healthy",
-    "timestamp": "2024-03-21T12:00:00.000Z",
-    "uptime": 123.45
-}
-```
-
 ## Deployment
 
 The application is automatically deployed to an Azure VM using GitHub Actions when changes are pushed to the main branch.
